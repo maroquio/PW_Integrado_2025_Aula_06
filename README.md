@@ -9,9 +9,13 @@ Olá! Hoje, vamos aprimorar nossos conhecimentos sobre o uso de banco de dados c
 ## Objetivos da Aula 
  
 a) Definir a entidade `Produto` com validações personalizadas usando Pydantic 2;
+
 b) Separar comandos SQL em constantes em um módulo dedicado;
+
 c) Implementar a classe `ProdutoRepo` para gerenciar operações CRUD;
+
 d) Desenvolver um programa de console interativo com um menu para gerenciar produtos;
+
 e) Garantir tratamento adequado de exceções e validação de entradas do usuário;
 
 ## 1. Definindo a Entidade `Produto` com Validações Personalizadas
