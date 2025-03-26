@@ -171,9 +171,6 @@ class ProdutoRepo:
             return cursor.rowcount > 0
 ```
 
-
-
-
 **Explicação:** 
  
 - **Gerenciador de Conexão:**  A função `get_db_connection` utiliza o decorador `@contextmanager` para gerenciar a conexão com o banco de dados, garantindo que as operações sejam commitadas e a conexão fechada adequadamente.​
